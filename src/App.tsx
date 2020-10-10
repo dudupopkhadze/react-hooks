@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from "react";
-import { myOwnRef } from "../hooks/useRef";
+import { myOwnRef } from "./hooks/useRef";
 
 const App = () => {
 	const [counter, setCounter] = useState(0);
