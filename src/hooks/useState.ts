@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import { useForceRender } from "./useForceRender";
 
 type ISetState<T> = ((newValue: T) => void) | ((prevValue: T) => T);
-type IUseStateArg<T> = T | (() => T)
+type IUseStateArg<T> = T | (() => T);
 
 export const useMyState = <T extends any>(
 	defaultValue: IUseStateArg<T>
